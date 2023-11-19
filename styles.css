@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1b1b1b;
+    color: #fff;
+    margin: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #292b2c !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+/* Hero Section Styles */
+#personaCarousel {
+    margin-top: 20px;
+}
+
+.carousel-inner img {
+    filter: brightness(60%);
+}
+.container {
+    max-width: 100%;
+}
+/* Character Card Styles */
+.card {
+    margin-bottom: 20px;
+    background-color: #292b2c;
+    border: 1px solid #343a40;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    height: 100%; /* Make the cards take the full height of the container */
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffc107; /* Persona 5 yellow */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.btn-primary {
+    background-color: #ffc107 !important; /* Persona 5 yellow */
+    border-color: #ffc107 !important;
+}
+
+.btn-primary:hover {
+    background-color: #e0a800 !important;
+    border-color: #e0a800 !important;
+    color: #fff !important;
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-md-3 {
+    flex: 0 0 25%; /* Make each column take 25% width */
+}
